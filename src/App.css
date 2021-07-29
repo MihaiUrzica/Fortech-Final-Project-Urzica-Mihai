@@ -1,0 +1,298 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.MainDiv {
+  color: #61dafb;
+}
+
+.artist-image{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.album-picture{
+  height: 150px;
+  width: 150px;
+}
+
+.artist_photo{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  opacity: 1;
+}
+.artist_photo :hover{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+/* Sidebar Content */
+.sidebar {
+  position: fixed;
+  float: left;
+  height: 100%;
+  width: 15%;
+  background: rgb(0,0,0);
+}
+.sidebar-title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 550;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.sidebar_link{
+  margin-top: 40px;
+}
+.link{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: 550;
+  margin-left: 15px;
+}
+.artist_List{
+  float: right;
+  width: 85%;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(3,3,3,1) 70%, rgba(17,13,97,1) 100%);
+  height: 100%;
+}
+.artistList_container {
+  padding-top: 30px;
+}
+.artist-container{
+  width: 33%; 
+  float: left; 
+  display: inline;
+  padding-left: 30px;
+  background: transparent;
+  text-align: center;
+  padding: 10px;
+}
+.Artist_Banner{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 72px;
+  color: azure;
+  padding-left: 30px;
+  float: left;
+  height: 20%;
+}
+.add_Button{
+  float: right;
+  /* padding-top: 35px;
+  padding-right: 15px; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: azure;
+  border: 2px solid azure;
+  text-align: center;
+  background: transparent;
+  margin-right: 15px;
+  margin-top: 35px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.add_Button :hover {
+  border: 2px solid transparent;
+  background: azure;
+  color: black;
+}
+/* .separator{
+  margin-top: 200px;
+  margin-bottom: 200px;
+} */
+.artist_name{
+  color: azure;
+
+}
+.artistList_title{
+  padding-top: 35px;
+  height: 180px;
+}
+.btn-secondary{
+  color: azure !important; 
+  background-color: transparent !important;
+  border-color: azure !important;
+}
+.btn-secondary :hover{
+  color: black !important; 
+  background-color: azure !important;
+  border-color: azure !important;
+}
+.addArtistForm{
+  width: 85%;
+  height: 100vh;
+  float: right;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(3,3,3,1) 70%, rgba(97,68,13,1) 100%);
+}
+.addArtistTitle{
+  padding-top: 35px;
+  height: 150px;
+  color: azure;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+}
+.form_label{
+  color: azure;
+}
+.artistPage-container{
+  width: 85%;
+  float: right;
+  height: 100vh;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(3,3,3,1) 70%, rgba(17,13,97,1) 100%);
+}
+
+.artistDetails{
+  height: 300px;
+  width: 100%;
+  /* position: relative; */
+}
+.artistBigName{
+  color: azure;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 90px;
+  
+}
+.artistInfo{
+  /* float: right; */
+  width: 75%;
+  margin-left: 320px;
+}
+
+.artist-image{
+  height: 300px;
+  width: 300px;
+  width: 24%;
+  float: left;
+}
+.artistCountry{
+  color: azure;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+}
+.artistDescription{
+  color: azure;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+}
+.artistButtons{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.artistAlbum{
+  background: black;
+  width: 11%;
+  float: left;
+  text-align: center;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+.albumsByArtist{
+  color: azure;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.artistAlbumName{
+  color: azure;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+}
+/* Album Add */
+.addAlbumForm{
+  width: 85%;
+  height: 100vh;
+  float: right;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(3,3,3,1) 70%, rgba(97,68,13,1) 100%);
+}
+.addAlbumTitle{
+  padding-top: 35px;
+  height: 150px;
+  color: azure;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+}
+.albumPage-container{
+  width: 85%;
+  float: right;
+  height: 100vh;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(3,3,3,1) 70%, rgba(17,13,97,1) 100%);
+}
+.albumPicture{
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+.songsTable{
+  width: 600px;
+  background: azure;
+}
+.albumDetails{
+  height: 300px;
+  width: 100%;
+}
+.songList{
+  width: 80%;
+}
+.songLine{
+  float:left;
+  width: 25%;
+  color: azure;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.songLineTable{
+  margin-top: 20px;
+  float:left;
+  width: 25%;
+  background: black;
+  color: azure;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+  border-bottom: 1px solid azure;
+  
+}
