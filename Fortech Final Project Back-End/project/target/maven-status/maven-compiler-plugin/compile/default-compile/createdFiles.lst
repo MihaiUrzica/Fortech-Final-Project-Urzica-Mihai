@@ -1,0 +1,16 @@
+com\fortech\project\Models\Entity\Song.class
+com\fortech\project\Repositories\ArtistsRepository.class
+com\fortech\project\Models\Entity\Playlists.class
+com\fortech\project\Models\Entity\Album.class
+com\fortech\project\Controllers\SongController.class
+com\fortech\project\ProjectApplication.class
+com\fortech\project\Controllers\AlbumController.class
+com\fortech\project\Repositories\AlbumsRepository.class
+com\fortech\project\Models\Dto\AlbumDto.class
+com\fortech\project\Models\Dto\SongDto.class
+com\fortech\project\Repositories\SongsRepository.class
+com\fortech\project\Models\Dto\ArtistDto.class
+com\fortech\project\Repositories\PlaylistsRepository.class
+com\fortech\project\Controllers\ArtistController.class
+com\fortech\project\Controllers\PlaylistsController.class
+com\fortech\project\Models\Entity\Artist.class

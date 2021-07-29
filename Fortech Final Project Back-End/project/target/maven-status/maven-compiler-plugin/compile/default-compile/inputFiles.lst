@@ -1,0 +1,16 @@
+E:\Fortech Final Project\project\src\main\java\com\fortech\project\Models\Entity\Playlists.java
+E:\Fortech Final Project\project\src\main\java\com\fortech\project\ProjectApplication.java
+E:\Fortech Final Project\project\src\main\java\com\fortech\project\Models\Dto\SongDto.java
+E:\Fortech Final Project\project\src\main\java\com\fortech\project\Controllers\ArtistController.java
+E:\Fortech Final Project\project\src\main\java\com\fortech\project\Models\Dto\AlbumDto.java
+E:\Fortech Final Project\project\src\main\java\com\fortech\project\Controllers\AlbumController.java
+E:\Fortech Final Project\project\src\main\java\com\fortech\project\Models\Entity\Artist.java
+E:\Fortech Final Project\project\src\main\java\com\fortech\project\Repositories\PlaylistsRepository.java
+E:\Fortech Final Project\project\src\main\java\com\fortech\project\Repositories\ArtistsRepository.java
+E:\Fortech Final Project\project\src\main\java\com\fortech\project\Controllers\PlaylistsController.java
+E:\Fortech Final Project\project\src\main\java\com\fortech\project\Controllers\SongController.java
+E:\Fortech Final Project\project\src\main\java\com\fortech\project\Models\Entity\Album.java
+E:\Fortech Final Project\project\src\main\java\com\fortech\project\Repositories\SongsRepository.java
+E:\Fortech Final Project\project\src\main\java\com\fortech\project\Models\Entity\Song.java
+E:\Fortech Final Project\project\src\main\java\com\fortech\project\Repositories\AlbumsRepository.java
+E:\Fortech Final Project\project\src\main\java\com\fortech\project\Models\Dto\ArtistDto.java
